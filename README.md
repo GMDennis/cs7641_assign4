@@ -1,4 +1,4 @@
-### CS7641 assignment1 repository (gkim359)
+### CS7641 assignment4 repository (gkim359)
 
 #### 1. make environment
 ```
@@ -20,4 +20,9 @@ python run_experiment.py --plot
 ```
 
 This command will generate images in sub-folders in `./output/images` and `./output/report`.
+
+#### 4. Reference
+
+I used https://github.com/cmaron/CS-7641-assignments and adjusted to have new environments, change plots.
+
 
