@@ -51,15 +51,25 @@ if __name__ == '__main__':
 
     envs = [
         {
-            'env': environments.get_large_rewarding_reward_frozen_lake_environment(),
-            'name': 'large_frozen_lake',
-            'readable_name': 'Frozen Lake (20x20)',
+            'env': environments.get_large_easy_rewarding_reward_frozen_lake_environment(),
+            'name': 'easy_large_frozen_lake',
+            'readable_name': 'Easy Frozen Lake (20x20)',
         },
-#        {
-#            'env': environments.get_windy_cliff_walking_environment(),
-#            'name': 'cliff_walking',
-#            'readable_name': 'Cliff Walking (4x12)',
-#        }
+        {
+            'env': environments.get_large_hard_rewarding_reward_frozen_lake_environment(),
+            'name': 'hard_large_frozen_lake',
+            'readable_name': 'Hard Frozen Lake (20x20)',
+        },
+        {
+            'env': environments.get_nowind_cliff_walking_environment(),
+            'name': 'cliff_walking',
+            'readable_name': 'Cliff Walking (4x12)',
+        },
+        {
+            'env': environments.get_windy_cliff_walking_environment(),
+            'name': 'windy_cliff_walking',
+            'readable_name': 'Windy Cliff Walking (4x12)',
+        }
     ]
 
     experiment_details = []

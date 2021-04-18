@@ -1,0 +1,2 @@
+,PI,VI,Q
+large_frozen_lake,"{'name': 'large_frozen_lake', 'readable_name': 'Large Frozen Lake', 'index': 9, 'params': {'discount_factor': 0.9}, 'param_str': '0.9'}","{'name': 'large_frozen_lake', 'readable_name': 'Large Frozen Lake', 'index': 9, 'params': {'discount_factor': 0.9}, 'param_str': '0.9'}","{'name': 'large_frozen_lake', 'readable_name': 'Large Frozen Lake', 'index': 167, 'params': {'alpha': 0.9, 'q_init': 0, 'epsilon': 0.3, 'epsilon_decay': 0.0001, 'discount_factor': 0.7}, 'param_str': '0.9_0_0.3_0.0001_0.7'}"
